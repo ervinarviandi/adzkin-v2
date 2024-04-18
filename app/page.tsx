@@ -24,9 +24,13 @@ export default function Home() {
         >
           Adzkin.
         </h2>
-        <p className="my-3 lg:text-md text-sm text-center text-neutral-300 lg:w-10/12 w-9/12 relative z-20">
-          Sebuah aplikasi dzikir yang memandu penggunanya dalam berzikir pagi
-          atau sore hari berdasarkan waktu mereka saat ini.
+        <p className="my-3 lg:text-md text-sm text-center text-neutral-300 lg:w-8/12 w-9/12 relative z-20">
+          {/* Sebuah aplikasi dzikir yang memandu penggunanya dalam berzikir pagi
+          atau sore hari . */}
+          Adzkin, Aplikasi untuk Android &amp; Desktop yang bertujuan memudahkan
+          kaum muslimin untuk melakukan dzikir pagi dan petang sesuai tuntunan
+          Nabi shalallahu &apos;alaihi wasallam melalui handphone/tablet
+          berbasis website
         </p>
 
         <Link

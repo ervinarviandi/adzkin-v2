@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/atoms/theme-provider";
 const signika = Signika_Negative({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "adzin dzikir app",
+  title: "Adzkin dzikir  ",
   description:
     " aplikasi dzikir yang memandu penggunanya dalam berzikir pagi atau sore hari",
 };
