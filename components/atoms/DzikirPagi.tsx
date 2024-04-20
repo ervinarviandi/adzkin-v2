@@ -20,14 +20,6 @@ export default async function DzikirPagi(title: any, children: any) {
       {surah.map((items: any) => (
         <div key={items}>
           <div className=" p-4 rounded-xl  dark:bg-[#161618] bg-gray-100 mt-4">
-            {/* <Accordion type="single" collapsible>
-              <AccordionItem value="item-1">
-                <AccordionTrigger></AccordionTrigger>
-                <AccordionContent>
-                
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion> */}
             <div className="flex justify-end">
               <div className=" bg-sky-400 p-2 rounded-xl  text-right">
                 <p className="lg:text-md text-sm">{items.read}</p>

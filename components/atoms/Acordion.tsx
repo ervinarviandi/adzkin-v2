@@ -18,11 +18,11 @@ export default function Acordion() {
               Tentang
             </AccordionTrigger>
             <AccordionContent className="text-sm text-left">
-              Adzkin, Aplikasi untuk Android &amp; Desktop yang bertujuan
+              Adzkin, Aplikasi dzikir untuk Android &amp; Desktop yang bertujuan
               memudahkan kaum muslimin untuk melakukan dzikir pagi dan petang
               sesuai tuntunan Nabi shalallahu &apos;alaihi wasallam melalui
-              handphone/tablet berbasis website, <br /> semua data dalam
-              aplikasi ini diambil menggunakan Public API.
+              handphone,tablet atau laptop berbasis website, <br /> semua data
+              dalam aplikasi ini diambil menggunakan Public API.
               <br />
             </AccordionContent>
           </AccordionItem>

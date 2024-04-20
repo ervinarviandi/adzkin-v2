@@ -35,8 +35,11 @@ const Header = () => {
           >
             <RiGithubFill size={18} />
           </Link>
+
+          {/* Link X  */}
+          {/* https://www.x.com/EArviandi?t=uhKSIrqEwhcLv7BCYqeRdw&s=09 */}
           <Link
-            href="https://www.x.com/EArviandi?t=uhKSIrqEwhcLv7BCYqeRdw&s=09"
+            href=""
             className="p-2 hover:dark:bg-[#161618] hover:bg-gray-100 rounded-lg"
           >
             <FaXTwitter size={18} />
