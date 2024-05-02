@@ -16,6 +16,7 @@ import Link from "next/link";
 import Acordion from "@/components/atoms/Acordion";
 
 import { LiaQuranSolid } from "react-icons/lia";
+import { FaPrayingHands } from "react-icons/fa";
 
 export default function MenuSheets() {
   return (
@@ -30,7 +31,7 @@ export default function MenuSheets() {
           <SheetTitle className="mt-4">
             <div className="font-bold text-lg flex items-center gap-2 ">
               <LiaQuranSolid size={20} />
-              <p>Adzkin.</p>
+              <Link href="/Beranda">Adzkin.</Link>
             </div>
           </SheetTitle>
           <SheetDescription></SheetDescription>
@@ -45,7 +46,7 @@ export default function MenuSheets() {
                 Beranda
               </Link>
             </div>
-            <div className="py-3">
+            <div className="mt-2">
               <Link
                 href="/Beranda"
                 className="flex items-center gap-2  hover:bg-sky-400 dark:text-[#fff] text-[#000] py-2 px-6 rounded-lg"
@@ -54,13 +55,22 @@ export default function MenuSheets() {
                 Dzikir Pagi
               </Link>
             </div>
-            <div>
+            <div className="mt-2">
               <Link
                 href="/DzikirSore"
                 className="flex items-center gap-2 hover:bg-orange-400 dark:text-[#fff] text-[#000] py-2 px-6 rounded-lg"
               >
                 <WiSunset size={20} />
                 Dzikir Sore
+              </Link>
+            </div>
+            <div className="mt-2">
+              <Link
+                href="/Doa"
+                className="flex items-center gap-2 hover:bg-purple-400 dark:text-[#fff] text-[#000] py-2 px-6 rounded-lg"
+              >
+                <FaPrayingHands size={20} />
+                Doa-Doa
               </Link>
             </div>
           </div>
