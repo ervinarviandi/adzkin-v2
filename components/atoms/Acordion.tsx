@@ -18,7 +18,7 @@ export default function Acordion() {
               Tentang
             </AccordionTrigger>
             <AccordionContent className="text-sm text-left">
-              Adzkin, Aplikasi dzikir untuk Android &amp; Desktop yang bertujuan
+              Adzkin, Aplikasi dzikir  yang bertujuan
               memudahkan kaum muslimin untuk melakukan dzikir pagi dan petang
               sesuai tuntunan Nabi shalallahu &apos;alaihi wasallam melalui
               handphone,tablet atau laptop berbasis website, <br /> semua data
@@ -59,6 +59,14 @@ export default function Acordion() {
                     className=" dark:hover:text-[#696970] hover:text-gray-600 flex items-center gap-2 "
                   >
                     Yazid bin Abdul Qadir Jawas - Dzikir Pagi Petang
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="https://doa-doa-api-ahmadramadhan.fly.dev/" target="_blank"
+                    className=" dark:hover:text-[#696970] hover:text-gray-600 flex items-center gap-2 "
+                  >
+                    https://doa-doa-api-ahmadramadhan.fly.dev/s
                   </Link>
                 </li>
               </ul>
